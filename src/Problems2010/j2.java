@@ -12,7 +12,7 @@ public class j2 {
 
         nSteps.add(Integer.parseInt(in.nextLine()));
         nSteps.add(Integer.parseInt(in.nextLine()));
-
+        
         bSteps.add(Integer.parseInt(in.nextLine()));
         bSteps.add(Integer.parseInt(in.nextLine()));
 
@@ -25,6 +25,7 @@ public class j2 {
                 nDistance + nSteps.get(0) - (nRemaining - nSteps.get(0)):
                 nDistance + nRemaining;
 
+    //------------------------------------------------------------------------------------------
         int bDistance = (steps / (bSteps.get(0) + bSteps.get(1))) * (bSteps.get(0) - bSteps.get(1));
         int bRemaining = steps % (bSteps.get(0) + bSteps.get(1));
 

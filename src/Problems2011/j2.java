@@ -9,9 +9,6 @@ public class j2 {
         Input:
         H - Humidity value (Plug this into the equation)
         M - Maximum hours she is willing to wait
-
-
-
         */
 
         Scanner in = new Scanner(System.in);
@@ -19,7 +16,7 @@ public class j2 {
         int M = in.nextInt();
         boolean landed = false;
 
-
+//substuting the variable t in the equation with i as that makes the square part much easier
         for (int i = 1; i < M; i++) {
             if (((-6 * i * i * i * i) + (H * i * i * i) + (2 * i * i) + i) <= 0){
                 System.out.println("The balloon first touches ground at hour: \n" + i);

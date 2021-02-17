@@ -29,7 +29,7 @@ public class j3 {
     sumac.add(firstNum);
     sumac.add(secondNum);
 
-    int currentSize = 1;
+    int currentSize = 1; // base size = 1 always
 
     while (sumac.get(currentSize) <= sumac.get(currentSize - 1)){
         sumac.add(sumac.get(currentSize - 1) - sumac.get(currentSize));
