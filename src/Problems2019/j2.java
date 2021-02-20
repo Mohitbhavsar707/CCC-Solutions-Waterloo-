@@ -12,6 +12,7 @@ public class j2 {
             for (int i = 0; i < numLines; i++) {
                 StringTokenizer data = new StringTokenizer(in.nextLine());
                 int C = Integer.parseInt(data.nextToken());
+                
                 String s = data.nextToken();
                 StringBuilder output = new StringBuilder();
 

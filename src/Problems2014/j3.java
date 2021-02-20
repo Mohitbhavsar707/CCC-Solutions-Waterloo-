@@ -1,8 +1,7 @@
 package Problems2014;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class j3 {
     public static void main(String[] args) {
@@ -10,7 +9,7 @@ public class j3 {
         Scanner in = new Scanner(System.in);
 
         int N = Integer.parseInt(in.nextLine());
-        List<String> values = new ArrayList<>();
+        ArrayList<String> values = new ArrayList<>();
 
         for (int i = 0; i < N; i++) {
             values.add(in.nextLine());
